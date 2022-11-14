@@ -8,9 +8,12 @@ provider:
   runtime: nodejs14.x
 
 functions:
-  hello:
-    handler: handler.hello
+  wumpus:
+    handler: src/handler.wumpus
     events:
       - httpApi:
-          path: /
-          method: get
+          path: /wumpus
+          method: post
+
+plugins:
+  - serverless-offline

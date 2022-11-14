@@ -1,0 +1,14 @@
+{
+  "coordinates": {
+    "position": [2, 2],
+    "direction": "left"
+  },
+  "sensors": {
+    "smell": false,
+    "breeze": false,
+    "gold": false,
+    "wall": false,
+    "deadWumpus": false
+  },
+  "score": 1
+}
